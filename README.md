@@ -19,6 +19,17 @@ Histogram depicting the distribution of countries by region.
 - D3.js for data visualization
 - Leaflet for mapping
 
+## Integration of Two APIs
+
+This project utilizes two distinct APIs to gather necessary data and create visualizations:
+
+Countries API: To gather information about countries such as names, capitals, currencies, regions, etc., we utilized the RESTful countries API https://restcountries.com/v3.1/all?fields=name,capital,currencies,capitalInfo,region. This API provides detailed data about countries from which we extract the required information for visualization.
+Exchange Rate API: In order to obtain currency exchange rates against USD, EUR, and GBP, we utilized the FastForex exchange rate API https://api.fastforex.io/fetch-multi. This API allows us to quickly and easily fetch current exchange rates for the selected currencies.
+By combining data provided by these two APIs, we can create information-rich visualizations such as the interactive map of capitals, detailed information about selected countries, summary of currency distribution in the form of a pie chart, and distribution of countries by region in the histogram.
+
+The use of these two APIs enriches the visualizations by providing accurate and up-to-date data about countries and exchange rates, enabling users to explore and understand global trends in currencies and geography.
+
+
 ## Installation
 
 To install and run the project locally, use the following steps:

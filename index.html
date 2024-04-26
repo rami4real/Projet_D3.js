@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisation des données</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Visualisation des pays</h1>
+    <div id="chart">
+        <div id="map">
+            <h2>Carte</h2>
+        </div>
+        <div id="info" >
+            <h2>Informations</h2>
+            <div id="lesp" style="color: black;">
+                <p id="selected-currency"></p>
+                <p id="selected-region"></p>
+                <p id="selected-name"></p>
+                <p id="currency-rate"></p>
+            </div>
+        </div> 
+    </div>
+
+    <div id="chart2">
+        <div id="pie-chart">
+            <h2>Diagramme circulaire</h2>
+        </div>
+        <div id="histogram">
+            <h2>Histogramme</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    background-color: #FFFBDA; /* Set your desired background color */
+}
+
+h1,
+h2 {
+    color: #FFBB70; /* Set the text color to #FFBB70 */
+}
+
+h2 {
+    color: #FFD580; /* Set the lighter text color for titles */
+}
+
+/* CSS styles for the map container and pie chart */
+#chart {
+    display: flex;
+}
+
+#map {
+    width: 70vw; /* Set the width to 70% of the viewport width */
+    height: 60vh; /* Set the height shorter */
+}
+
+#info {
+    float: left;
+    width: 50%; /* Adjust the width as needed */
+}
+
+#pie-chart {
+    float: right;
+    width: 30%; /* Set the width to 30% of the viewport width */
+    height: 60vh;
+}
+
+#histogram {
+    float: left;
+    width: 30%; /* Set the width to 30% of the viewport width */
+    height: 60vh;
+    margin-top: 20px; /* Add some margin to separate it from the pie chart */
+}
